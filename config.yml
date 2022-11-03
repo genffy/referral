@@ -1,0 +1,35 @@
+baseURL: '/'
+languageCode: 'en-us'
+title: 'Referral'
+
+enableEmoji: true
+hasCJKLanguage: false
+pygmentsstyle: "tango"
+pygmentscodefences: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Links of the navbar
+# menu:
+#   primary:
+#     - name: Home
+#       url: /
+#       weight: 1
+#     - name: About
+#       url: /about
+#       weight: 2
+
+params:
+  # you should change this
+  # or delete it with /layout/blog/single.html
+  # the latter is recommended
+  baseURL: "/"
+  sitename: "Referral"
+  # it will produce: copyrights (c) 2022 joe
+  copyrights: genffy
+
+# and don't forget
+theme: kaslaanka
