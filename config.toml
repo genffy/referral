@@ -1,0 +1,56 @@
+title = "Coupon"
+baseURL = "/"
+languageCode = "en-us"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+resourceDir = "../resources"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = "G-53ZG21QGRY"
+# pornk8s G-5YK1DZB634
+# 0xfomo G-53ZG21QGRY
+enableRobotsTXT = true
+enableEmoji = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[languages]
+  [languages.en]
+    title = "Coupon"
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+  [languages.cn]
+    title = "优惠券"
+    languageName = "中文"
+    weight = 2
+    contentDir = "content/zh-cn"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = "green"
+  author = ""
+  favicon = "img/coupon.png"
+  site_logo = "img/coupon.png"
+  description = "The last theme you'll ever need. Maybe."
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
+  # commentoEnable = true
+  custom_css = ["custom.css"]
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/genffy"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/genffy"
