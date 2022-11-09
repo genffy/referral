@@ -1,0 +1,23 @@
+{
+  "name": "referral",
+  "version": "1.0.0",
+  "description": "## notes ### how to use theme Althought official recommend use `As a Hugo Module`, but if you want deploy it to [Vercel](https://vercel.com/guides/deploying-hugo-with-vercel), [As-git-submodule](https://github.com/theNewDynamic/gohugo-theme-ananke#as-git-submodule) is recommended, details [Need to install Go to use Hugo modules](https://github.com/vercel/community/discussions/38)!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "hugo server -D"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genffy/referral.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/genffy/referral/issues"
+  },
+  "homepage": "https://github.com/genffy/referral#readme",
+  "dependencies": {
+    "@vercel/analytics": "^0.1.3"
+  }
+}
