@@ -10,7 +10,7 @@ Born for programmers, designers, researchers, foreign trade workers
 
 - Has its own client (very simple, 0 configuration, just install + login)
 - Support Anyconnect (no need to configure http_proxy, https_proxy, it can be used directly in Treminal)
-- Basic package `15 yuan/month` January
+- Basic package `15 yuan/month` fee
 - Support Crypto payment
 <div style="margin-bottom: 20px;">
     <a href="https://xiyou4you.us/r/?s=22881327"><button class="glow-on-hover" type="button">ORDER NOW!</button></a>
