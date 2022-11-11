@@ -48,9 +48,9 @@ enableEmoji = true
   custom_css = ["custom.css"]
 
 [[params.ananke_socials]]
-name = "twitter"
+name = "Twitter"
 url = "https://twitter.com/genffy"
 
 [[params.ananke_socials]]
-name = "github"
+name = "Github"
 url = "https://github.com/genffy"
